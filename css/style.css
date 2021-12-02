@@ -1,0 +1,350 @@
+body {
+    background-color: white;
+}
+h1 {
+    font-family:  "Spectral";
+    font-weight:700;
+    line-height: 85%;
+    text-align: center;
+  }
+p {
+    font-family: "Roboto";
+    font-weight:300;
+}
+ul {
+  font-family: "Roboto";
+  font-weight:300;
+}
+
+li {
+  margin-bottom: 10px;
+}
+/*header styling*/
+*{box-sizing: border-box;}
+body { 
+    margin: 0px;
+    font-family: "Roboto";
+
+  }
+
+.headerHolder {
+    position: relative;
+    background-color: gray;
+    background-image: url('../images/headerbg.png');
+    height: 325px;
+}
+
+
+
+  .header {
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    top: 75px;
+    overflow: hidden;
+    background-color: none;
+    padding: 20px 40px;
+    background-color: white;
+    border: solid black 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+  
+  .header a {
+      position: relative;
+    float: left;
+    color: black;
+    text-align: justify;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: none;
+    border-left: none;
+  
+  }
+  
+  .header a.logo {
+    height:100px;
+    
+  }
+  .logo {
+    margin-left:none;
+    
+  }
+  .header a:hover {
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 139, 30);
+    
+  }
+  
+  .header a.active {
+    background-color: rgb(255, 139, 30);
+    color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+  }
+  
+  .header-right {
+    padding-top: 35px;
+    float: right;
+    text-align: center;
+  }
+/*body*/
+.sidebar {
+  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; 
+  left: 0;
+  background-color: white;
+  border: solid black 1px;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  top: 220px;
+}
+.container {
+
+  overflow-x: hidden;
+  margin-left: 350px;
+  height: 750px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 0.9fr 1.1fr; 
+  gap: 4px 4px; 
+  grid-template-areas:  
+    "skills-image-one tallimage2"
+    "skillscopy tallimage2"; 
+}
+.skills-image-one { 
+  
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-image: url("images/skillsinpractice.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-area: skills-image-one; }
+
+.tallimage2 { 
+  margin: 20px;
+  background-image: url("images/ppe9sma.jpeg");
+  background-size: cover;
+  padding: 20px;
+  grid-area: tallimage2; }
+
+.skillscopy { 
+  color: white;
+  font-weight: 200;
+  padding: 20px;
+  background-color: rgb(83, 83, 83);
+  grid-area: skillscopy; }
+
+.orangeHeadline {
+  color:rgb(255, 139, 30);
+  font-family: "Spectral";
+    font-weight:700;
+    font-size: xx-large;
+}
+
+.whiteonGray {
+font-family: "roboto";
+font-weight: 250;
+}
+.workContainer {
+  margin-top: 20px;
+  margin-left: 350px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  
+
+}
+
+
+.workContainer > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  
+}
+.workLink1 {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  background-image: url("/images/smttile.png");
+  vertical-align: bottom;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  
+}
+
+.workLink2 {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  background-image: url("/images/fcctile.png");
+  vertical-align: bottom;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+
+.workLink3 {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  background-image: url("/images/hgtile.png");
+  vertical-align: bottom;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+span {
+ text-align: center;
+ font-family: 'Roboto';
+ font-size: large;
+ color: white;
+ text-shadow: none;
+ 
+  
+}
+a:link {
+  text-decoration: none;
+}
+
+  .hero {
+    height:700px;
+    position: absolute;
+    top: 325px;
+  }
+  /*footer*/
+  .footer {
+    z-index: 3;
+    display: inline-block;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    border-top: solid 2px black;
+  }
+  .copyright {
+    font-weight: 300;
+    padding: 5px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: none;
+    margin: 40px;
+  }
+  .footer-right {
+    float: right;
+    padding: 20px;
+    padding-right: 50px;
+    text-align: center;
+  }
+  .b1 {
+    height: 60px;
+    width: 60px;
+    border: none;
+    color: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 50%;
+    background:  rgb(255, 139, 30) url('../images/resumeblk.svg') no-repeat center;
+  
+  }
+  .b1:hover {
+    background:  white url('../images/resume.svg') no-repeat center;
+    border: solid rgb(146, 146, 146) 1px;
+  }
+
+  .b2 {
+    height: 60px;
+    width: 60px;
+    border: none;
+    color: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 50%;
+    background:  rgb(255, 139, 30) url('../images/socialblk.svg') no-repeat center;
+  
+  }
+  .b2:hover {
+    background: white url('../images/social.svg') no-repeat center;
+    border: solid rgb(146, 146, 146) 1px;
+  }
+  .b3 {
+    height: 60px;
+    width: 60px;
+    border: none;
+    color: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 50%;
+    background: rgb(255, 139, 30) url('../images/contactblk.svg') no-repeat center;
+  
+  }
+  .b3:hover {
+    background: white url('../images/contact.svg') no-repeat center;
+    border: solid rgb(146, 146, 146) 1px;
+  }
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+        float: none;
+        }
+      }
+        
+ @media screen and (max-height: 1000px) {
+        .hero {
+          position: absolute;
+          top: 200px;
+          height: 400px;
+        }
+        .sidebar {
+          top: 160px;
+        }
+        .headerHolder {
+          
+          height: 200px;
+        }
+        .header {
+          
+          top: 13px;
+        }
+        .container {
+          height: 600px;
+        }
+        }
