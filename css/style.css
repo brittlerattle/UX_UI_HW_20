@@ -120,7 +120,7 @@ body {
     {
       position:fixed;
       z-index: 5;
-      left: 10px;
+      left: 15px;
       max-width:90vw;
       overflow-y: hidden;
       bottom: 0px;
@@ -135,7 +135,7 @@ body {
       z-index: 1; 
       left: 0;
       background-color: black;
-      opacity: .5;
+      opacity: .75;
       overflow-y: none; /* Disable scroll */
       padding-top: 20px;
       padding: 20px;
