@@ -38,7 +38,7 @@ body {
 
   .header {
     box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
-    z-index: 2;
+    z-index: 6;
     width: 100%;
     position: fixed;
     top: 75px;
@@ -63,21 +63,21 @@ body {
     line-height: 25px;
     border-radius: none;
     border-left: none;
-  
+    z-index: 6;
   }
   
   .header a.logo {
     height:100px;
-    
+    z-index: 6
   }
   .logo {
     margin-left:none;
-    
+    z-index: 6
   }
   .header a:hover {
     background-color: rgb(83, 83, 83);
     color: rgb(255, 139, 30);
-    
+    z-index: 6
   }
   
   .header a.active {
@@ -85,15 +85,64 @@ body {
     color: black;
     padding-left: 12px;
     padding-right: 12px;
-    
+    z-index: 6
   }
   
   .header-right {
     padding-top: 35px;
     float: right;
     text-align: center;
+    z-index: 6
   }
 /*body*/
+
+.back
+    {
+      position:fixed;
+      z-index: 0;
+      overflow-y: hidden;
+      left: 10px;
+      max-width:90vw;
+      bottom: 0px;
+    }
+
+    .bubble
+    {
+      position:fixed;
+      z-index: 0;
+      overflow: hidden;
+      left: 20vw;
+      width: 50%;
+      bottom: 30vh;
+    }
+
+    .front
+    {
+      position:fixed;
+      z-index: 5;
+      left: 10px;
+      max-width:90vw;
+      overflow-y: hidden;
+      bottom: 0px;
+      pointer-events: none;
+    }
+
+    .sidebarHero {
+      top: 75px;
+      height: 100vh; /* Full-height: remove this if you want "auto" height */
+      width: 21vw; /* Set the width of the sidebar */
+      position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+      z-index: 1; 
+      left: 0;
+      background-color: black;
+      opacity: .5;
+      overflow-y: none; /* Disable scroll */
+      padding-top: 20px;
+      padding: 20px;
+      margin-left: 5vw;
+    
+     
+    }
 .sidebar {
   box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
   height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -219,9 +268,8 @@ span {
  font-size: large;
  color: white;
  text-shadow: none;
- 
-  
 }
+
 a:link {
   text-decoration: none;
 }
@@ -328,11 +376,7 @@ a:link {
       }
         
  @media screen and (max-height: 1000px) {
-        .hero {
-          position: absolute;
-          top: 200px;
-          height: 400px;
-        }
+        
         .sidebar {
           top: 160px;
         }
@@ -348,49 +392,3 @@ a:link {
           height: 600px;
         }
         }
-/* wobble animation
-
-get info from 18.3
-.append message from index.js*/
-        @keyframes wobble-top {
-          16.65% {
-            transform: skew(-12deg);
-          }
-        
-          33.3% {
-            transform: skew(10deg);
-          }
-        
-          49.95% {
-            transform: skew(-6deg);
-          }
-        
-          66.6% {
-            transform: skew(4deg);
-          }
-        
-          83.25% {
-            transform: skew(-2deg);
-          }
-        
-          100% {
-            transform: skew(0);
-          }
-        }
-        
-        .wobble-top {
-          display: inline-block;
-          transform-origin: 0 100%;
-        
-          @include hideTapHighlightColor();
-          @include hardwareAccel();
-          @include improveAntiAlias();
-        
-          &:hover {
-            animation-name: wobble-top;
-            animation-duration: 1s;
-            animation-timing-function: ease-in-out;
-            animation-iteration-count: 1;
-          }
-        }
-        

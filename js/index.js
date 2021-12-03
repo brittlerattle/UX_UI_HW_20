@@ -1,8 +1,11 @@
-
 console.log("Your index.js file is loaded corretly!");
     
-    
 
-$("bubbleClass").hover( function(){
-    $(this).append( {"all in css"}, 1000 );
+$(document).ready(function(){
+    $(".bubble").hover(
+        function() {$(this).attr("src","images/splash images/bubble2.png");},
+        function() {$(this).attr("src","images/splash images/bubble.png");
+  
+    });
 });
+
