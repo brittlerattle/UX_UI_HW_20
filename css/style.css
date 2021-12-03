@@ -376,7 +376,9 @@ a:link {
       }
         
  @media screen and (max-height: 1000px) {
-        
+        .sidebarHero {
+          width: 22vw;
+        }
         .sidebar {
           top: 160px;
         }
