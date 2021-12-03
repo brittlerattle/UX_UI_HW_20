@@ -175,14 +175,14 @@ body {
   
   margin-top: 20px;
   margin-bottom: 10px;
-  background-image: url("/images/skillsinpractice.jpg");
+  background-image: url("images/skillsinpractice.jpg");
   background-size: cover;
   background-position: center;
   grid-area: skills-image-one; }
 
 .tallimage2 { 
   margin: 20px;
-  background-image: url("/images/ppe9sma.jpeg");
+  background-image: url("images/ppe9sma.jpeg");
   background-size: cover;
   padding: 20px;
   grid-area: tallimage2; }
@@ -230,7 +230,7 @@ font-weight: 250;
   width: 300px;
   height: 300px;
   padding: 20px;
-  background-image: url("/images/smttile.png");
+  background-image: url("images/smttile.png");
   vertical-align: bottom;
   text-align: center;
   background-repeat: no-repeat;
@@ -243,7 +243,7 @@ font-weight: 250;
   width: 300px;
   height: 300px;
   padding: 20px;
-  background-image: url("/images/fcctile.png");
+  background-image: url("images/fcctile.png");
   vertical-align: bottom;
   text-align: center;
   background-repeat: no-repeat;
@@ -255,7 +255,7 @@ font-weight: 250;
   width: 300px;
   height: 300px;
   padding: 20px;
-  background-image: url("/images/hgtile.png");
+  background-image: url("images/hgtile.png");
   vertical-align: bottom;
   text-align: center;
   background-repeat: no-repeat;
