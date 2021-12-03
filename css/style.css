@@ -379,6 +379,10 @@ a:link {
         .sidebarHero {
           width: 22vw;
         }
+
+        .bubble {
+          left: 23vw;
+        }
         .sidebar {
           top: 160px;
         }
