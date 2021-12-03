@@ -76,7 +76,7 @@ body {
   }
   .header a:hover {
     background-color: rgb(252, 123, 4);
-    color: rgb(255, 139, 30);
+    color: white;
     z-index: 6
   }
   
@@ -385,10 +385,24 @@ a:link {
           height: 200px;
         }
         .header {
-          
+          max-height: 15vh;
           top: 13px;
+          align-items: center;
+          padding-top: 0;
+        }
+
+        .header-right{
+          padding-top: 0;
         }
         .container {
           height: 600px;
+        }
+        .logo {
+          max-height: 10vh;
+          max-width: 10vh;
+          object-fit: cover;
+        }
+        .footer {
+          max-height: 15vh;
         }
         }
