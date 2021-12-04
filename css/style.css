@@ -178,6 +178,7 @@ body {
   background-image: url("../images/skillsinpractice.jpg");
   background-size: cover;
   background-position: center;
+  min-height: 50px;
   grid-area: skills-image-one; }
 
 .tallimage2 { 
@@ -196,6 +197,7 @@ body {
 
 .orangeHeadline {
   color:rgb(255, 139, 30);
+  line-height: 85%;
   font-family: "Spectral";
     font-weight:700;
     font-size: xx-large;
