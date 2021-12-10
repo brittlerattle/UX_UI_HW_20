@@ -6,16 +6,29 @@ h1 {
     font-weight:700;
     line-height: 85%;
     text-align: center;
+    
+  }
+
+  .sidebardbg {
+    background-color:rgba(255, 255, 255, 0.75);
+    padding: 25px;
+    border-radius: 5px;
   }
 p {
     font-family: "Roboto";
     font-weight:300;
 }
+.ideate{
+  color: white;
+  max-width: 925px;
+}
 ul {
   font-family: "Roboto";
   font-weight:300;
 }
-
+h3 {
+  color: white;
+}
 li {
   margin-bottom: 10px;
 }
@@ -32,6 +45,7 @@ body {
     background-color: gray;
     background-image: url('../images/headerbg.png');
     height: 325px;
+    
 }
 
 
@@ -49,6 +63,7 @@ body {
     border: solid black 2px;
     margin-left: 20px;
     margin-right: 20px;
+    
     
   }
   
@@ -95,9 +110,7 @@ body {
     z-index: 6
   }
 /*body*/
-#carouselExampleCaptions{
-  padding-top: 20px !important;
-}
+
 .back
     {
       position:fixed;
@@ -109,25 +122,117 @@ body {
     }
 
     /*smt CSS*/
-.carousel-indicators .active{
-  color: orange!important;
+
+.btn{
+  box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.75);
 }
-.sidebar.smtbar{
-  width: 400px ;
+.btn:hover{
+  box-shadow: none;
 }
-.carousel-inner{
-  width: 600px;
+.testbar{
+
+    background-image: url("../images/sidebar2.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  .protobar {
+  background-image: url("../images/sidebar1.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  
+  }
+   .pcard{
+     max-width: 900px;
+     
+   }
+   .tcard{
+     max-width: 800px;
+   }
+
+    .sm54cards{
+      display: flex;
+    }
+.ptypimg{
+opacity: .7;
+
 }
-.container.smtcontainer {
-  padding-left: 300px;
+    .sm54cards > div {
+      margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+    }
+.card-text {
+  font-size: medium;
+}
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+  justify-content: center;
+  padding-left: 32vw;
+
+  height: auto;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  overflow-x: hidden;
+  margin-bottom: 150px;
+  background-color: rgba(50, 50, 50, 0.75);
+     
+}
+.display-4 {
+  max-width: 900px;
+  color: rgb(252, 123, 4);
+  font-weight: 700;
+  opacity: 1!important;
+}
+.lead {
+  max-width: 900px;
+  color: white;
+  padding: 10px;
 }
 
-.carousel-caption {
-  color: black;
-  background-color: white;
- opacity: .8;
+.jumbotext2 {
+  max-width: 900px;
+  color: white;
+  padding: 10px;
 }
-
+.empathyimage{
+  left: 320px;
+  max-width: 850px;
+}
+.btn {
+  font: 'roboto';
+  font-weight: 300;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 0px;
+}
+.btn:hover {
+  background-color: rgb(252, 123, 4);
+}
+.mainbutt {
+  z-index: 6;
+  border-radius: 5px;
+  background-color: rgb(252, 123, 4);
+  padding: 25px;
+  box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.75);
+}
+.buttonrow {
+  background-color:none;
+  position: fixed;
+  left: 35vw;
+  bottom: 120px;
+  padding: 20px;
+  width: 700px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+  z-index: 5;
+}
     /*smt CSS end*/
     .bubble
     {
@@ -163,15 +268,17 @@ body {
       padding-top: 20px;
       padding: 20px;
       margin-left: 5vw;
-    
-     
     }
+.sidebar::-webkit-scrollbar {
+      display: none;
+  }
+  
 .sidebar {
   box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 300px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; 
+  z-index: 2; 
   left: 0;
   background-color: white;
   border: solid black 1px;
@@ -180,6 +287,7 @@ body {
   padding: 20px;
   margin-left: 20px;
   top: 220px;
+  overflow-y: scroll;
 }
 .container {
 
@@ -261,6 +369,7 @@ font-weight: 250;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
+  opacity: .8;
   
   
 }
@@ -279,9 +388,15 @@ font-weight: 250;
 
 .smtcardcap:hover {
   box-shadow: none;
+  color:rgb(252, 123, 4);
   background-color: white;
 }
+.workLink1:hover{
+  opacity: 1;
+}
+
 .workLink2 {
+  opacity: .8;
   width: 300px;
   height: 300px;
   padding: 20px;
@@ -294,6 +409,7 @@ font-weight: 250;
 }
 
 .workLink3 {
+  opacity: .8;
   width: 300px;
   height: 300px;
   padding: 20px;
@@ -416,7 +532,21 @@ a:link {
         float: none;
         }
       }
-        
+
+@media screen and (max-width: 900px) {
+      .sidebar {
+        width: 25vw;
+      
+      }
+    }
+
+@media screen and (min-width: 1500px) {
+      .jumbotron {
+        margin-right: 15vw;
+        padding-left: 25vw;
+       }
+     }
+
  @media screen and (max-height: 1000px) {
 
   .back{
@@ -448,7 +578,7 @@ a:link {
         }
 
         .header-right{
-          padding-top: 0;
+          padding-top: 3vh;
         }
         .container {
           height: 600px;
@@ -461,7 +591,7 @@ a:link {
         .footer {
           max-height: 15vh;
         }
-        }
+}
 
         /* bubble animation */
         @-webkit-keyframes bubble {
