@@ -19,7 +19,7 @@ p {
     font-weight:300;
 }
 .ideate{
-  color: white;
+  color: black;
   max-width: 925px;
 }
 ul {
@@ -178,7 +178,7 @@ opacity: .7;
   background-repeat: no-repeat; /* Do not repeat the image */
   overflow-x: hidden;
   margin-bottom: 150px;
-  background-color: rgba(50, 50, 50, 0.75);
+  background-color: none;
      
 }
 .display-4 {
@@ -189,7 +189,8 @@ opacity: .7;
 }
 .lead {
   max-width: 900px;
-  color: white;
+  color: black;
+  font-weight: 300;
   padding: 10px;
 }
 
