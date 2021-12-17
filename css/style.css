@@ -122,7 +122,12 @@ body {
     }
 
     /*smt CSS*/
-.smtbar h1 {
+     /*smt CSS*/
+      /*smt CSS*/
+       /*smt CSS*/
+        /*smt CSS*/
+
+.smtbar h1 { /*this is for the styling of the sidebar h1*/
   text-align: left;
   letter-spacing: -2px;
   font-weight: 725;
@@ -187,10 +192,11 @@ opacity: .7;
      
 }
 
-.shortTron{
+.shortTron{ /*this is for jumbotron content that doesn't extend to the bottom of the scren*/
   padding-bottom: 25vh;
 }
-.display-4 {
+
+.display-4 {/*this is for subheadlines in the jumbotron copy*/
   max-width: 900px;
   color: rgb(252, 123, 4);
   font-weight: 700;
@@ -246,6 +252,13 @@ opacity: .7;
   z-index: 5;
 }
     /*smt CSS end*/
+     /*smt CSS end*/
+      /*smt CSS end*/
+       /*smt CSS end*/
+        /*smt CSS end*/
+
+/*splash page styling*/
+
     .bubble
     {
       position:fixed;
@@ -301,8 +314,10 @@ opacity: .7;
   top: 220px;
   overflow-y: scroll;
 }
-.container {
 
+/*skills in practice*/
+
+.container {
   overflow-x: hidden;
   margin-left: 350px;
   height: 750px;
@@ -315,7 +330,6 @@ opacity: .7;
     "skillscopy tallimage2"; 
 }
 .skills-image-one { 
-  
   margin-top: 20px;
   margin-bottom: 10px;
   background-image: url("../images/skillsinpractice.jpg");
@@ -350,6 +364,8 @@ opacity: .7;
 font-family: "roboto";
 font-weight: 250;
 }
+
+/* my work buttons MAKE CARDS HERE!!! */
 .workContainer {
   margin-top: 20px;
   margin-left: 350px;
@@ -449,7 +465,14 @@ a:link {
     position: absolute;
     top: 325px;
   }
+
+
   /*footer*/
+    /*footer*/  /*footer*/
+    /*footer*/  /*footer*/
+    /*footer*/  /*footer*/
+    /*footer*/
+    
   .footer {
     z-index: 3;
     display: inline-block;
