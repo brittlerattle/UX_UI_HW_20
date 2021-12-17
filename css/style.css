@@ -169,17 +169,20 @@ opacity: .7;
 .jumbotron {
   display: flex;
   flex-direction: column;
-  z-index: -1;
-  justify-content: center;
+  z-index: -1; 
   padding-left: 32vw;
-
+  padding-bottom: 10vh;
   height: auto;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   overflow-x: hidden;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
   background-color: none;
      
+}
+
+.shortTron{
+  padding-bottom: 25vh;
 }
 .display-4 {
   max-width: 900px;
