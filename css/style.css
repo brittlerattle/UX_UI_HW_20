@@ -27,7 +27,7 @@ ul {
   font-weight:300;
 }
 h3 {
-  color: white;
+  color: rgb(39, 112, 100);
 }
 li {
   margin-bottom: 10px;
@@ -186,6 +186,8 @@ opacity: .7;
   color: rgb(252, 123, 4);
   font-weight: 700;
   opacity: 1!important;
+  letter-spacing: -3px!important;
+
 }
 .lead {
   max-width: 900px;
