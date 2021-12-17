@@ -122,7 +122,13 @@ body {
     }
 
     /*smt CSS*/
-
+.smtbar h1 {
+  text-align: left;
+  letter-spacing: -2px;
+  font-weight: 725;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
 .btn{
   box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.75);
 }
