@@ -235,7 +235,7 @@ opacity: .7;
   z-index: 6;
   border-radius: 5px;
   background-color: rgb(252, 123, 4);
-  padding: 25px;
+  padding: 20px;
   box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.75);
 }
 .buttonrow {
@@ -472,7 +472,7 @@ a:link {
     /*footer*/  /*footer*/
     /*footer*/  /*footer*/
     /*footer*/
-    
+
   .footer {
     z-index: 3;
     display: inline-block;
