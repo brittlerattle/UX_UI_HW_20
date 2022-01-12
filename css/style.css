@@ -14,6 +14,12 @@ h1 {
     padding: 25px;
     border-radius: 5px;
   }
+  .sidebardbgMP {
+   
+    background-color:rgba(255, 255, 255, 0.75);
+    padding: 25px;
+    border-radius: 5px;
+  }
 p {
     font-family: "Roboto";
     font-weight:300;
@@ -147,6 +153,13 @@ body {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
   }
+  .testbarMP{
+    background-image: url("../images/mpside2.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+  }
+
   .protobar {
   background-image: url("../images/sidebar1.png");
   background-position: center; /* Center the image */
@@ -154,6 +167,14 @@ body {
   background-size: cover;
   
   }
+  .protobarMP {
+    background-image: url("../images/mpSide.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: fill;
+    
+    
+    }
    .pcard{
      max-width: 900px;
      
@@ -175,7 +196,15 @@ opacity: .7;
   font-size: 30px;
     }
 .card-text {
-  font-size: medium;
+  font-size:small;
+}
+
+.card-img-topMP{
+  max-height: 100px;
+  width: auto;
+  object-fit: cover;
+  bottom: 0;
+  
 }
 .jumbotron {
   display: flex;
@@ -218,7 +247,22 @@ opacity: .7;
 }
 .empathyimage{
   left: 320px;
-  max-width: 850px;
+  max-width: 800px;
+}
+.makesmall{
+  opacity: .75;
+  max-height: 400px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.makesmall:hover{
+  opacity: 1;
+}
+.mpQuotes{
+  max-width: 800px;
+
 }
 .btn {
   font: 'roboto';
