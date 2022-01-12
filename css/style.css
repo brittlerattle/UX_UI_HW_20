@@ -141,7 +141,7 @@ body {
   padding-top: 10px;
 }
 .btn{
-  box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.75);
+  box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.3);
 }
 .btn:hover{
   box-shadow: none;
@@ -280,7 +280,7 @@ opacity: .7;
   border-radius: 5px;
   background-color: rgb(252, 123, 4);
   padding: 20px;
-  box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.75);
+  box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.5);
 }
 .buttonrow {
   background-color:none;
