@@ -331,7 +331,7 @@ opacity: .7;
 }
 
 .containerMe {
-  background-color: #f8f9fa;
+  background-color: none;
   overflow-x: hidden;
   margin-left: 350px;
   height: 750px;
@@ -343,7 +343,8 @@ opacity: .7;
     " skillscopy meimage1"; }
 
     .meimage1{
-      margin: 30px;
+      padding: 30px;
+      margin: 10px;
       background-image: url("../images/me.jpg");
       background-size: cover;
       background-position: top;
