@@ -326,11 +326,30 @@ opacity: .7;
   grid-template-rows: 0.9fr 1.1fr; 
   gap: 4px 4px; 
   grid-template-areas:  
-    "skills-image-one tallimage2"
+    " skillscopy skills-image-one"
     "skillscopy tallimage2"; 
 }
+
+.containerMe {
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  margin-left: 350px;
+  height: 750px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows:1fr;
+  gap: 4px 4px; 
+  grid-template-areas:  
+    " skillscopy meimage1"; }
+
+    .meimage1{
+      margin: 30px;
+      background-image: url("../images/me.jpg");
+      background-size: cover;
+      background-position: top;
+    }
 .skills-image-one { 
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
   background-image: url("../images/skillsinpractice.jpg");
   background-size: cover;
@@ -339,19 +358,22 @@ opacity: .7;
   grid-area: skills-image-one; }
 
 .tallimage2 { 
-  margin: 20px;
-  background-image: url("../images/ppe9sma.jpeg");
+  background-image: url("../images/ptype.png");
   background-size: cover;
   padding: 20px;
   grid-area: tallimage2; }
 
 .skillscopy { 
+  margin: 10px;
   color: white;
   font-weight: 200;
   padding: 20px;
   background-color: rgb(83, 83, 83);
-  grid-area: skillscopy; }
-
+  grid-area: skillscopy;
+overflow-y: scroll; }
+.skillscopy::-webkit-scrollbar {
+  display: none;
+}
 .orangeHeadline {
   color:rgb(255, 139, 30);
   line-height: 85%;
@@ -437,16 +459,22 @@ font-weight: 250;
 }
 
 .workLink3 {
-  opacity: .8;
+  
   width: 300px;
   height: 300px;
   padding: 20px;
-  background-image: url("../images/hgtile.png");
+  background-image: url("../images/madtile50.png");
   vertical-align: bottom;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
+}
+.blackFont{
+  color:black;
+}
+.workLink3:hover{
+  background-image: url("../images/madplanettile.png");
 }
 span {
  text-align: center;
