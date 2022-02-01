@@ -1,6 +1,14 @@
 body {
     background-color: white;
 }
+.mailto{
+  color:black;
+}
+a:visited 
+{
+    text-decoration: none; 
+    color: black; 
+}
 h1 {
     font-family:  "Spectral";
     font-weight:700;
@@ -609,7 +617,7 @@ a:link {
     text-align: center;
   }
   .b1 {
-    height: 60px;
+    /*height: 60px;
     width: 60px;
     border: none;
     color: none;
@@ -621,15 +629,22 @@ a:link {
     margin: 2px 2px;
     border-radius: 50%;
     background:  rgb(255, 139, 30) url('../images/resumeblk.svg') no-repeat center;
-  
+  */
+  border: none;
+  width: 40px;
+  height: 40px;
+  background:  url('../images/resume.svg') no-repeat center;
+  box-shadow: 1px 2px 2px darkgray;
   }
   .b1:hover {
-    background:  white url('../images/resume.svg') no-repeat center;
-    border: solid rgb(146, 146, 146) 1px;
+   
+    background:  white url('../images/resumeblk.svg') no-repeat center;
+    /*border: solid rgb(146, 146, 146) 1px;*/
+    box-shadow: none;
   }
 
   .b2 {
-    height: 60px;
+    /*height: 60px;
     width: 60px;
     border: none;
     color: none;
@@ -641,14 +656,20 @@ a:link {
     margin: 2px 2px;
     border-radius: 50%;
     background:  rgb(255, 139, 30) url('../images/socialblk.png') no-repeat center;
-  
+  */
+  border: none;
+  width: 40px;
+  height: 40px;
+  background:  url('../images/social.png') no-repeat center;
+  box-shadow: 1px 2px 2px darkgray;
   }
   .b2:hover {
-    background: white url('../images/social.png') no-repeat center;
-    border: solid rgb(146, 146, 146) 1px;
+    background: white url('../images/socialblk.png') no-repeat center;
+    /*border: solid rgb(146, 146, 146) 1px;*/
+    box-shadow: none;
   }
   .b3 {
-    height: 60px;
+    /*height: 60px;
     width: 60px;
     border: none;
     color: none;
@@ -658,13 +679,18 @@ a:link {
     display: inline-block;
     font-size: 16px;
     margin: 2px 2px;
-    border-radius: 50%;
-    background: rgb(255, 139, 30) url('../images/contactblk.svg') no-repeat center;
+    border-radius: 50%;*/
+    border: none;
+    box-shadow: 1px 2px 2px darkgray;
+  width: 40px;
+  height: 40px;
+    background:  url('../images/contact.svg') no-repeat center;
   
   }
   .b3:hover {
-    background: white url('../images/contact.svg') no-repeat center;
-    border: solid rgb(146, 146, 146) 1px;
+    background: white url('../images/contactblk.svg') no-repeat center;
+    box-shadow: none;
+    /*border: solid rgb(146, 146, 146) 1px;*/
   }
   @media screen and (max-width: 500px) {
     .header a {
