@@ -24,6 +24,38 @@ p {
     font-family: "Roboto";
     font-weight:300;
 }
+.workdescriptions{
+  background-color:rgba(255, 255, 255, 0.75);
+  background-size: cover;
+text-align: left ;
+color: black;
+padding: 20px;
+padding-top: 60px;
+padding-bottom: 70px;
+font-weight: 300;
+
+
+}
+
+.workdescriptions2{
+  background-color:rgba(255, 255, 255, 0.9);
+  background-size: cover;
+text-align: left ;
+color: black;
+padding: 20px;
+padding-top: 60px;
+padding-bottom: 107px;
+font-weight: 300;
+}
+/* make work descriptions diappear on hover */
+.workLink3:hover .workdescriptions{
+  opacity: 0;
+  box-shadow: none;
+}
+.workLink1:hover .workdescriptions2{
+  opacity: 0;
+  box-shadow: none;
+}
 .ideate{
   color: black;
   max-width: 925px;
@@ -96,13 +128,13 @@ body {
     z-index: 6
   }
   .header a:hover {
-    background-color: rgb(255, 139, 30);
+    background-color: rgb(252, 123, 4);
     color: white;
     z-index: 6
   }
   
   .header a.active {
-    background-color: rgb(255, 139, 30);
+    background-color: rgb(252, 123, 4);
     color: black;
     padding-left: 12px;
     padding-right: 12px;
@@ -457,14 +489,16 @@ font-weight: 250;
 .workLink1 {
   width: 300px;
   height: 300px;
-  padding: 20px;
+  padding: 0;
   background-image: url("../images/smttile.png");
   vertical-align: bottom;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
-  opacity: .8;
+  opacity: 1;
+  
+  box-shadow: 5px 5px rgb(252, 123, 4)
   
   
 }
@@ -488,6 +522,7 @@ font-weight: 250;
 }
 .workLink1:hover{
   opacity: 1;
+  box-shadow: none;
 }
 
 .workLink2 {
@@ -507,19 +542,21 @@ font-weight: 250;
   
   width: 300px;
   height: 300px;
-  padding: 20px;
+  padding: 0px;
   background-image: url("../images/madtile50.png");
   vertical-align: bottom;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
+  box-shadow: 5px 5px rgb(252, 123, 4)
 }
 .blackFont{
   color:black;
 }
 .workLink3:hover{
   background-image: url("../images/madplanettile.png");
+  box-shadow: none;
 }
 span {
  text-align: center;
@@ -603,11 +640,11 @@ a:link {
     font-size: 16px;
     margin: 2px 2px;
     border-radius: 50%;
-    background:  rgb(255, 139, 30) url('../images/socialblk.svg') no-repeat center;
+    background:  rgb(255, 139, 30) url('../images/socialblk.png') no-repeat center;
   
   }
   .b2:hover {
-    background: white url('../images/social.svg') no-repeat center;
+    background: white url('../images/social.png') no-repeat center;
     border: solid rgb(146, 146, 146) 1px;
   }
   .b3 {
